@@ -9,7 +9,7 @@ If you just want to run the extension locally to see the interface and visualiza
 * Download the repository including the core submodule. You may use `git clone --recurse-submodules`.
 * Rename `manifest.json-template.json` to `manifest.json`.
 * Create the folder `_locales/en/` and rename `_locales/en_messages.json-template.json` to `_locales/en/messages.json`.
-* Rename the file `js/app/config.js-template.js` to `config.js`.
+* Rename the file `js/app/config.js-template.js` to `js/app/config.js`.
 * In Chrome, go to chrome://extensions, turn on Developer Mode, and choose Load Unpacked extension, and select the folder where you cloned or downloaded this repository. The extension will also load in Firefox if you prefer. Chrome will say there is an error in the manifest because there are Firefox specific settings, but it does not impact the extension.
 
 ### If you use this tool please cite this paper: 
